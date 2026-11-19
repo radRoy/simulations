@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "simulations"
+version = "0.1.0"
+description = "Simulations of natural phenomena"
+readme = "README.md"
+authors = [
+    { name = "Daniel Walther", email = "dm.walther@pm.me" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
